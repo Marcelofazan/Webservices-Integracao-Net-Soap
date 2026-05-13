@@ -20,3 +20,7 @@ Modifique o [DIRETORIO] na string de conexão no arquivo **PessoaService.asmx**,
 Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=[DIRETORIO]\\App_Data\\BancoTesteSoap.mdf;Integrated Security=True;"
 ```
 O script para criação da Database do exemplo encontra-se na pasta **Database**.
+
+### Frontend Web 
+Projeto vinculado a **Razor-Consumir-SOAP** que se encontra no Github.
+  - [Razor-Consumir-SOAP](https://github.com/Marcelofazan/razor-consumir-soap)
