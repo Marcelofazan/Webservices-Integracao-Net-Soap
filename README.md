@@ -23,7 +23,7 @@ Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=[DIRETORIO]\\App_Data\\Banc
 ```
 O script para criação da Database do exemplo encontra-se na pasta **Database**.
 
-## 🌍 Razor-Consumir-Soap
+## 🌐 Razor-Consumir-Soap
 Exemplo de criação de Consumo de WebServices, desenvolvido em .NET10. 
 
 #### O que você vai encontrar neste projeto
