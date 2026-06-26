@@ -21,8 +21,9 @@ O script para criação da Database do exemplo encontra-se na pasta **Database**
 #### 🔄 Executar a aplicação
 Para executar a aplicação é necessário: 
 
-- Acessar link de referência da documentação: (http://localhost:54222/PessoaService.asmx)
-
+- Acessar link de referência da documentação: **http://localhost:54222/PessoaService.asmx**
+- O WSDL fica disponivel em **http://localhost:54222/PessoaService.asmx?wsdl**
+- 
 ## 🌐 Razor-Consumir-Soap
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
@@ -30,5 +31,5 @@ Para executar a aplicação é necessário:
 | **Client SOAP**  | Manipulação de métodos CRUD para enviar/receber dados. |
 
 #### 🔄 Executar a aplicação
-- Para executar a aplicação é necessário, rodar antes o soap-provedor-database. **(http://localhost:54222/PessoaService.asmx)**
+- Para executar a aplicação é necessário, rodar antes o soap-provedor-database. **http://localhost:54222/PessoaService.asmx**
 
