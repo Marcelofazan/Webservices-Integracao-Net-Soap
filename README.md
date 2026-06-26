@@ -1,12 +1,15 @@
 ## 🌐 Webservices-Integracao-Net-Soap
 Exemplo de integração SOAP WebServices em C# .NET e banco de dados SQL-Server.
 
-## 📁 Soap-Provedor-Database
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
 |-----------|-----------|
+| **Client SOAP**  | Aplicação que inicia uma requisição de comunicação usando o protocolo SOAP |
+| **Proxy/Stub**  | Processo de geração de ler um serviço e manipulalo automaticamente |
+| **ServiceModel**  | Classe utilizada no C# para implementar e consumir serviços WCF (Windows Communication Foundation) |
 | **WSDL**  | Padrão baseado em XML que funciona como um "contrato" para descrever serviços web. |
  
+## 📁 Soap-Provedor-Database
 #### 💬 Requisitos do Projeto
 - Se necessário Acessar Visual Studio como administrador.
 - Se necessário atribuir acesso de usuário NT Service\MSSQLSERVER a pasta App_Data.
@@ -26,13 +29,6 @@ Para executar a aplicação é necessário:
 - O WSDL fica disponivel em **http://localhost:54222/PessoaService.asmx?wsdl**
   
 ## 📁 Razor-Consumir-Soap
-#### 📋 O que você vai encontrar neste projeto
-| Tecnologia | Descrição |
-|-----------|-----------|
-| **Client SOAP**  | Aplicação que inicia uma requisição de comunicação usando o protocolo SOAP |
-| **Proxy/Stub**  | Processo de geração de ler um serviço e manipulalo automaticamente |
-| **ServiceModel**  | Classe utilizada no C# para implementar e consumir serviços WCF (Windows Communication Foundation) |
-
 #### 🔄 Executar a aplicação
 - Para executar a aplicação é necessário, rodar antes o soap-provedor-database. **http://localhost:54222/PessoaService.asmx**
 
