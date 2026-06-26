@@ -29,7 +29,7 @@ Para executar a aplicação é necessário:
 | Tecnologia | Descrição |
 |-----------|-----------|
 | **Client SOAP**  | Aplicação que inicia uma requisição de comunicação usando o protocolo SOAP |
-| **Stub/Proxy**  | Processo de geração de ler um serviço e manipulalo automaticamente |
+| **Proxy/Stub**  | Processo de geração de ler um serviço e manipulalo automaticamente |
 | **ServiceModel**  | Classe utilizada no C# para implementar e consumir serviços WCF (Windows Communication Foundation) |
 
 #### 🔄 Executar a aplicação
